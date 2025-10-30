@@ -19,10 +19,11 @@ class telaHomeState extends State<telaHome>{
         title: Text('Olá, $nome!'),
         actions: [
           Icon(Icons.construction_rounded)
+
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(items: <BottomNavigationBarItem>[
-        BottomNavigationBarItem(icon: Icon(Icons.shopping_basket_sharp), label: 'carrinho'),
+        BottomNavigationBarItem(icon: Icon(Icons.home), label: 'carrinho'),
         BottomNavigationBarItem(icon: Icon(Icons.savings_rounded), label: 'descontos'),
         BottomNavigationBarItem(icon: Icon(Icons.delivery_dining), label: 'meus pedidos'),
       ]),
